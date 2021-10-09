@@ -1,0 +1,39 @@
+/*form validation*/
+.formv{
+    position: relative;
+}
+
+.formv.success input{
+    border-color: #2ecc71;
+}
+
+.formv.error input{
+    border-color: #e74c3c;
+}
+
+.formv i{
+    position: absolute;
+    right: 10px;
+    visibility: hidden;
+}
+
+.formv.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.formv.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.formv small{
+    visibility: hidden;
+}
+
+.formv.error small{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+
