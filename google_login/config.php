@@ -4,15 +4,16 @@
 
 //Include Google Client Library for PHP autoload file
 require_once 'vendor/autoload.php';
+require_once 'configuration.php';
 
 //Make object of Google API Client for call Google API
 $google_client = new Google_Client();
 
 //Set the OAuth 2.0 Client ID
-$google_client->setClientId('399224178626-1j0vuoqvgqtur1sidkj5p0h9derc5dll.apps.googleusercontent.com');
+$google_client->setClientId($credentials[0]); // Add your google_client_id $credentials[0]
 
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('7dEPgMqYbpB8fXq4UOn6Ecf2');
+$google_client->setClientSecret($credentials[1]); // Add your google_secret_key
 
 //Set the OAuth 2.0 Redirect URI
 $google_client->setRedirectUri('http://localhost/completewebsite/index.php');

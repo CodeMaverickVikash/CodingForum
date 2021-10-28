@@ -96,8 +96,9 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <!-- backtotop js -->
     <!-- <script src="layout/scripts/jquery.backtotop.js"></script> -->
+
     <!-- type.js cdn -->
-    <script src="https://s3.amazonaws.com/myadvobuck/static/libs/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js" integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script type="text/javascript">
     

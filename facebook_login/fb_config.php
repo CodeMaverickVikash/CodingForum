@@ -3,6 +3,7 @@
 <?php
 
 require_once 'vendor/autoload.php';
+require_once 'config.php';
 
 if (!session_id())
 {
@@ -12,8 +13,8 @@ if (!session_id())
 // Call Facebook API
 
 $facebook = new \Facebook\Facebook([
-  'app_id'      => '312709340424366',
-  'app_secret'     => '3111d5abb2a0e1fe87c3aac912b3bcc5',
+  'app_id'      => $credentials[0],
+  'app_secret'     => $credentials[1],
   'default_graph_version'  => 'v2.10'
 ]);
 
