@@ -1,14 +1,12 @@
 # Coding Forum - Question and Answer website
-
-This project is a basically forum website that takes the problem or error code, solve by mentor and provide desired code.
-It will be platform where anyone can share answer/problem and can help to other person.
+A coding forum is a platform like stackoverflow.com. The forum website takes the problem or error code, solves it by the mentor, and provides the desired code. It will be a platform where anyone can share answers/problems and help others.
 
 ## Installation
 1. Install XAMPP or WAMPP. [Click here to download](https://www.apachefriends.org/download.html)
 
-2. Open XAMPP Control panal and start [apache] and [mysql] .
+2. Open the XAMPP Control panel and start [apache] and [mysql] .
 
-3. Download project from github(https://github.com/VikashRepo123/Coding-Forum.git).
+3. Download the project from GitHub(https://github.com/VikashRepo123/Coding-Forum.git).
 
 OR follow git bash commands 
 
