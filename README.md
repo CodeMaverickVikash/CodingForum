@@ -1,4 +1,4 @@
-# Coding Forum
+# Coding Forum - Question and Answer website
 
 This project is a basically forum website that takes the problem or error code, solve by mentor and provide desired code.
 It will be platform where anyone can share answer/problem and can help to other person.
